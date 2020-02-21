@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="ok">Ок</string>
+
+    <string name="no_permission">This button cannot run because it does not have permissions.</string>
+    <string name="extended_battery_life">Extended Battery Up \n to 2h 10m </string>
+    <string name="ext_battery">Extended Battery Up \n to 6h 30m</string>
+
+    <string name="feedbacktype1">Feedback</string>
+    <string name="feedbacktype3">Sentence</string>
+    <string name="feedbacktype2">Complaing</string>
+    <string name="feedbacktype4">Error report</string>
+
+    <string name="clean">청소</string>
+    <string name="junk_cleaner">정크 클리너</string>
+    <string name="speed_booster">스피드 부스터</string>
+    <string name="cpu_cooler">CPU 냉각기</string>
+    <string name="battery_saver">배터리 절약기</string>
+
+    <string name="cache_memory">메모리 캐치</string>
+    <string name="temporary_files">임시 파일</string>
+    <string name="residual_files">잔여 파일</string>
+    <string name="system_junk">시스템 정크</string>
+
+    <string name="optimize">최적화</string>
+    <string name="running_processes">실행 프로세스</string>
+    <string name="ram_usage">RAM 사용량</string>
+
+    <string name="overheated">과열됨</string>
+
+    <string name="cool_down">냉각</string>
+</resources>

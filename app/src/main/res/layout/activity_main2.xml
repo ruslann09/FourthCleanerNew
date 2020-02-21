@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserI.MainActiv"
+    android:background="@color/bg_color"
+    android:weightSum="10">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8860950261780725/1250209209">
+    </com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/rl_main_booster"
+                android:layout_width="235dp"
+                android:layout_height="235dp"
+                android:layout_centerHorizontal="true"
+
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="25dp"
+                        app:srcCompat="@drawable/half_alpha_circle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <com.hookedonplay.decoviewlib.DecoView
+                        android:id="@+id/bg_deco_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center">
+
+                        <com.hookedonplay.decoviewlib.DecoView
+                            android:id="@+id/dynamicArcView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <com.hookedonplay.decoviewlib.DecoView
+                            android:id="@+id/dynamicArcView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="215dp"
+                    android:layout_height="215dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:id="@+id/needcleantext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:text="GOOD" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/optimize_now"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="-3dp"
+                    android:src="@drawable/action_btn"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/optimize"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:weightSum="100"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/batterysaver"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/half_alpha_circle" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/bottom_active_xml_btn"
+                        android:padding="20dp"
+                        android:layout_centerInParent="true"
+                        android:src="@mipmap/ic_menu_battery_saver" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/orange_light"
+                    android:textSize="20dp"
+                    android:text="@string/battery_saver" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/junkcleaner"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/half_alpha_circle" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/bottom_active_xml_btn"
+                        android:padding="20dp"
+                        android:layout_centerInParent="true"
+                        android:src="@mipmap/ic_menu_junk_cleaner" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/orange_light"
+                    android:textSize="20dp"
+                    android:text="@string/junk_cleaner" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/speedbooster"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/half_alpha_circle" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/bottom_active_xml_btn"
+                        android:padding="20dp"
+                        android:layout_centerInParent="true"
+                        android:src="@mipmap/ic_menu_charge_booster" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/orange_light"
+                    android:textSize="20dp"
+                    android:text="@string/speed_booster" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/cpucooler"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/half_alpha_circle" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/bottom_active_xml_btn"
+                        android:padding="20dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/info" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/orange_light"
+                    android:textSize="20dp"
+                    android:text="@string/phone_info" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

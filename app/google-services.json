@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "633748392824",
+    "firebase_url": "https://testruadmob.firebaseio.com",
+    "project_id": "testruadmob",
+    "storage_bucket": "testruadmob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633748392824:android:841d5be60c835f74a2d68d",
+        "android_client_info": {
+          "package_name": "com.cacheclean.cleanapp.cacheappclean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633748392824-pmg5fa5j5b5banmnbdv2dja6jtgvupjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-hIwblecUL3343FHDLZ7CZVXwOV8aGng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633748392824-pmg5fa5j5b5banmnbdv2dja6jtgvupjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8860950261780725~9511842604"
+    }
+  ],
+  "configuration_version": "1"
+}

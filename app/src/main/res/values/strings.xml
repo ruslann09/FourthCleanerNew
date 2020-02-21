@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name" translatable="false">Remove Cache</string>
+
+    <string name="phone_booster_admob" translatable="false">ca-app-pub-8860950261780725/9509926889</string>
+    <string name="mode_normal_admob" translatable="false">ca-app-pub-8860950261780725/9509926889</string>
+    <string name="scanning_junk_admob" translatable="false">ca-app-pub-8860950261780725/9509926889</string>
+    <string name="saving_power_admob" translatable="false">ca-app-pub-8860950261780725/9509926889</string>
+    <string name="scanner_cpu_admob" translatable="false">ca-app-pub-8860950261780725/9509926889</string>
+    <string name="on_start_admob" translatable="false">ca-app-pub-8860950261780725/9509926889</string>
+
+    <string name="ok">Ок</string>
+
+    <string name="no_permission">This button cannot run because it does not have permissions.</string>
+    <string name="extended_battery_life">Extended Battery Up \n to 2h 10m </string>
+    <string name="ext_battery">Extended Battery Up \n to 6h 30m</string>
+
+    <string name="channel_name" translatable="false">MAIN_STREAM_CHANNEL</string>
+
+    <string name="feedbacktype1">Feedback</string>
+    <string name="feedbacktype3">Sentence</string>
+    <string name="feedbacktype2">Complaing</string>
+    <string name="feedbacktype4">Error report</string>
+
+    <string name="en" translatable="false">English</string>
+    <string name="ru" translatable="false">Русский</string>
+    <string name="ar" translatable="false">Arabia</string>
+    <string name="zh" translatable="false">中國</string>
+    <string name="ko" translatable="false">한국</string>
+    <string name="fr" translatable="false">français</string>
+    <!--<string name="german">Deutsch</string>-->
+    <string name="es" translatable="false">Español</string>
+    <!--<string name="portugal">Português</string>-->
+    <!--<string name="italian">italiano</string>-->
+    <!--<string name="indian">भारतीय</string>-->
+    <string name="clean">Clean</string>
+    <string name="junk_cleaner">Junk cleaner</string>
+    <string name="speed_booster">Speed Booster</string>
+    <string name="cpu_cooler">CPU Cooler</string>
+    <string name="battery_saver">Battery Saver</string>
+    <string name="cache_memory">Cache Memory</string>
+    <string name="temporary_files">Temporary Files</string>
+    <string name="residual_files">Residual Files</string>
+    <string name="system_junk">System Junk</string>
+    <string name="optimize">optimize</string>
+    <string name="running_processes">Running Processes</string>
+    <string name="ram_usage">Ram Usage</string>
+    <string name="overheated">OVERHEATED</string>
+    <string name="apps_are_causing_problem_hit_cool_down">Apps Are Causing Problem Hit Cool Down</string>
+    <string name="cool_down">Cool Down</string>
+    <string name="storage">Storage</string>
+    <string name="found">Found</string>
+    <string name="charging_time_remaning">Charging Time Remaning</string>
+    <string name="optimizing">Optimizing...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="normal_mode">normal mode</string>
+    <string name="ultra_mode">ultra mode</string>
+    <string name="extreme_mode">extreme mode</string>
+    <string name="normal">NORMAL</string>
+    <string name="temperature_is_norm">CPU Temperature is Good</string>
+    <string name="no_apps_to_closing">Currently No App Causing Overheating</string>
+    <string name="apps_to_close">Apps are causing problem hit cool down</string>
+    <string name="crystal_clear">CRYSTAL CLEAR</string>
+    <string name="total_junks">Total Junk File Size</string>
+    <string name="super_clear">SUPER CLEAR</string>
+    <string name="yandex_metrik">3159d2e1-c4de-4e76-9c42-664e8441b230</string>
+
+    <string name="currently_no_app_causing_overheating">Currently No App Causing Overheating</string>
+    <string name="phone_info">Phone Info</string>
+</resources>

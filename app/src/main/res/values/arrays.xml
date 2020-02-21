@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feedbacktypelist">
+        <item>@string/feedbacktype1</item>
+        <item>@string/feedbacktype2</item>
+        <item>@string/feedbacktype3</item>
+        <item>@string/feedbacktype4</item>
+    </string-array>
+    <string-array name="languagelist">
+        <item>@string/en</item>
+        <item>@string/ru</item>
+        <item>@string/ar</item>
+        <item>@string/zh</item>
+        <!--<item>@string/german</item>-->
+        <item>@string/es</item>
+        <!--<item>@string/portugal</item>-->
+        <!--<item>@string/italian</item>-->
+        <!--<item>@string/indian</item>-->
+        <item>@string/fr</item>
+        <item>@string/ko</item>
+    </string-array>
+</resources>

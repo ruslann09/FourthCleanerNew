@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#413F3F</color>
+    <color name="tab_background_selected">#2499E0</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="text_color">#40AAB4</color>
+
+
+    <color name="colorGrey">#dcdcdc</color>
+
+    <color name="greyLight">#9e9e9e</color>
+
+
+    <color name="colorlighttext">#4e5457</color>
+    <color name="colortextblue">#136AF6</color>
+    <color name="colorlightgrey">#848585</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorview">#32000000</color>
+
+
+    <color name="red">#f63030</color>
+    <color name="orange_light">#FF8400</color>
+    <color name="txt_blue">#136af6</color>
+    <color name="main_text_clr">#49c0ec</color>
+
+    <color name="white">#ffffff</color>
+    <color name="color_bottom_navigator">#FFFFFF</color>
+    <color name="color_bottom_navigator_disabled">#FF0000</color>
+    <color name="bg_color">#10B4F5</color>
+    <color name="wave_orange">#FF5900</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="ok">Ок</string>
+
+    <string name="no_permission">This button cannot run because it does not have permissions.</string>
+    <string name="extended_battery_life">Extended Battery Up \n to 2h 10m </string>
+    <string name="ext_battery">Extended Battery Up \n to 6h 30m</string>
+
+    <string name="feedbacktype1">Feedback</string>
+    <string name="feedbacktype3">Sentence</string>
+    <string name="feedbacktype2">Complaing</string>
+    <string name="feedbacktype4">Error report</string>
+
+    <string name="clean">تنظيف</string>
+    <string name="junk_cleaner">منظف الملفات غير المرغوب فيه</string>
+    <string name="speed_booster">معزز السرعة</string>
+    <string name="cpu_cooler">مبرد المعالج</string>
+    <string name="battery_saver">موفر البطارية</string>
+
+    <string name="cache_memory">الذاكرة المؤقتة</string>
+    <string name="temporary_files">الملفات المؤقتة</string>
+    <string name="residual_files">الملفات المتبقية</string>
+    <string name="system_junk">ملفات النظام غير المرغوب فيها</string>
+
+    <string name="optimize">تحسين</string>
+    <string name="running_processes">عمليات قيد التشغيل</string>
+    <string name="ram_usage">استخدام RAM</string>
+
+    <string name="overheated">ساخن أكثر من اللازم</string>
+    <string name="normal">عادي</string>
+
+    <string name="cool_down">تبريد</string>
+    <string name="currently_no_app_causing_overheating">حاليا لا التطبيقات التي تسبب الانهاك</string>
+    <string name="charging_time_remaning">شحن الوقت المتبقي</string>
+    <string name="normal_mode">عادي </string>
+    <string name="ultra_mode">فائقة </string>
+    <string name="extreme_mode">أقصى </string>
+</resources>

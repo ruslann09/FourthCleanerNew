@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="ok">Ок</string>
+
+    <string name="no_permission">This button cannot run because it does not have permissions.</string>
+    <string name="extended_battery_life">Extended Battery Up \n to 2h 10m </string>
+    <string name="ext_battery">Extended Battery Up \n to 6h 30m</string>
+
+    <string name="feedbacktype1">Feedback</string>
+    <string name="feedbacktype3">Sentence</string>
+    <string name="feedbacktype2">Complaing</string>
+    <string name="feedbacktype4">Error report</string>
+
+    <string name="clean">清理</string>
+    <string name="junk_cleaner">垃圾清理工具</string>
+    <string name="speed_booster">提速工具</string>
+    <string name="cpu_cooler">CPU 降溫工具</string>
+    <string name="battery_saver">省電工具</string>
+
+    <string name="cache_memory">快取記憶體</string>
+    <string name="temporary_files">臨時檔案</string>
+    <string name="residual_files">殘留檔案</string>
+    <string name="system_junk">系統垃圾</string>
+
+    <string name="optimize">優化</string>
+    <string name="running_processes">正在運行的行程</string>
+    <string name="ram_usage">記憶體使用率</string>
+
+    <string name="overheated">過熱</string>
+
+    <string name="cool_down">冷卻</string>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="ok">Ок</string>
+
+    <string name="no_permission">This button cannot run because it does not have permissions.</string>
+    <string name="extended_battery_life">Extended Battery Up \n to 2h 10m </string>
+    <string name="ext_battery">Extended Battery Up \n to 6h 30m</string>
+
+    <string name="feedbacktype1">Feedback</string>
+    <string name="feedbacktype3">Sentence</string>
+    <string name="feedbacktype2">Complaing</string>
+    <string name="feedbacktype4">Error report</string>
+
+    <string name="clean">Очистить</string>
+    <string name="junk_cleaner">Очистка мусора</string>
+    <string name="speed_booster">Ускоритель</string>
+    <string name="cpu_cooler">Охлаждение</string>
+    <string name="battery_saver">Экономия батареи</string>
+
+    <string name="cache_memory">Файлы кэша</string>
+    <string name="temporary_files">Временные файлы</string>
+    <string name="residual_files">Остаточные файлы</string>
+    <string name="system_junk">Системный мусор</string>
+
+    <string name="optimize">Оптимизировать</string>
+    <string name="running_processes">Запущенные процессы</string>
+    <string name="ram_usage">Использовано RAM</string>
+
+    <string name="overheated">ПЕРЕГРЕТО</string>
+
+    <string name="cool_down">Охладить</string>
+
+    <string name="storage">Память</string>
+    <string name="found">Найдено</string>
+
+    <string name="charging_time_remaning">Оставшееся время работы</string>
+    <string name="apps_are_causing_problem_hit_cool_down">Необходимо охладить</string>
+
+    <string name="optimizing">Оптимизация...</string>
+
+    <string name="normal_mode">легкий режим</string>
+    <string name="ultra_mode">средний режим</string>
+    <string name="extreme_mode">макс. режим</string>
+
+    <string name="normal">В НОРМЕ</string>
+    <string name="temperature_is_norm">Температура CPU нормальная</string>
+    <string name="no_apps_to_closing">нет приложений для закрытия</string>
+    <string name="apps_to_close">Приложения, вызывающие проблемы с нагревом</string>
+
+    <string name="crystal_clear">Кристальная очистка</string>
+    <string name="total_junks">Общее количество мусора: </string>
+    <string name="super_clear">Супер очистка</string>
+</resources>

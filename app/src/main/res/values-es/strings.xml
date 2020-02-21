@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="ok">Ок</string>
+
+    <string name="no_permission">This button cannot run because it does not have permissions.</string>
+    <string name="extended_battery_life">Extended Battery Up \n to 2h 10m </string>
+    <string name="ext_battery">Extended Battery Up \n to 6h 30m</string>
+
+    <string name="feedbacktype1">Feedback</string>
+    <string name="feedbacktype3">Sentence</string>
+    <string name="feedbacktype2">Complaing</string>
+    <string name="feedbacktype4">Error report</string>
+
+    <string name="clean">Limpiar</string>
+    <string name="junk_cleaner">Limpiador de archivos basura</string>
+    <string name="speed_booster">Potenciador de velocidad</string>
+    <string name="cpu_cooler">Enfriador de CPU</string>
+    <string name="battery_saver">Ahorrador de batería</string>
+
+    <string name="cache_memory">Memoria caché</string>
+    <string name="temporary_files">Archivos temporales</string>
+    <string name="residual_files">Archivos residuales</string>
+    <string name="system_junk">Archivos basura del sistema</string>
+
+    <string name="optimize">Optimizar</string>
+    <string name="running_processes">Procesos ejecutándose</string>
+    <string name="ram_usage">Uso de RAM</string>
+
+    <string name="overheated">SOBRECALENTADO</string>
+
+    <string name="cool_down">Enfriar</string>
+</resources>

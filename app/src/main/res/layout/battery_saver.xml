@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxTReg
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="@string/battery_saver"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/red"
+            android:textSize="23sp"
+            android:textStyle="normal" />
+
+        <RelativeLayout
+            android:layout_width="185dp"
+            android:layout_height="185dp"
+            android:layout_marginBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="195dp"
+                android:layout_height="195dp"
+                android:gravity="center">
+
+                <me.itangqi.waveloadingview.WaveLoadingView
+                    android:id="@+id/waveView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    app:wlv_progressValue="40"
+                    app:wlv_round_rectangle="true"
+                    app:wlv_shapeType="triangle"
+                    app:wlv_titleBottomSize="@dimen/_30sdp"
+                    app:wlv_titleCenterColor="@color/white"
+                    app:wlv_titleCenterSize="@dimen/_25sdp"
+                    app:wlv_triangle_direction="north"
+                    app:wlv_waveAmplitude="40"
+                    app:wlv_waveColor="@color/wave_orange" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxTReg
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|center"
+                android:text="@string/charging_time_remaning"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxTReg
+                    android:id="@+id/hourmain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxTReg
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxTReg
+                    android:id="@+id/minutesmain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:text="15"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxTReg
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="m"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:background="#61FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+                <ImageView
+                    android:id="@+id/powersaving"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/blue_btn" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxTReg
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/ultra_mode"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+                    android:id="@+id/hourp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+                    android:id="@+id/minutesp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="15"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="m"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/red"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+                <ImageView
+                    android:id="@+id/ultra"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/red_btn" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxTReg
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/extreme_mode"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+                    android:id="@+id/houru"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+                    android:id="@+id/minutesu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="15"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="m"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/red"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+                <ImageView
+                    android:id="@+id/normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/green_bgn" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxTReg
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/normal_mode"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+                    android:id="@+id/hourn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="h"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+                    android:id="@+id/minutes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="15"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+                <com.cacheclean.cleanapp.cacheappclean.Overided.CustomTxtSem
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="m"
+                    android:textColor="@color/orange_light"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<ImageView-->
+        <!--android:layout_gravity="center"-->
+        <!--android:paddingTop="@dimen/_20sdp"-->
+        <!--android:layout_marginLeft="-7dp"-->
+        <!--android:layout_marginRight="-7dp"-->
+        <!--android:src="@drawable/green_line"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="@dimen/_30sdp"-->
+        <!--android:layout_weight="0.7"-->
+        <!--/>-->
+
+
+
+        <!--<ImageView-->
+        <!--android:layout_gravity="center"-->
+        <!--android:paddingTop="@dimen/_20sdp"-->
+        <!--android:layout_marginLeft="-8dp"-->
+        <!--android:layout_marginRight="-8dp"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="@dimen/_30sdp"-->
+        <!--android:layout_weight="0.7"-->
+        <!--android:src="@drawable/blue_line"/>-->
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
